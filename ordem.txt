@@ -1,0 +1,20 @@
+composer create-project symfony/skeleton nomedoprojeto				Iniciar projeto em symfony
+php -S localhost:8000 -t public ou composer require server          Iniciar servidor
+php bin/console server:run                                          rodar o servidor apos instalar pelo composer
+criar controlador no src/controller
+criar rota em config/routes.yaml
+Instalar annotations
+instalar doctrine e maker
+configurar arquivo .env no caso o bd
+criar o banco apos a configuração com o comando a baixo
+php bin/console doctrine:database:create
+criar entidades com o comando php 
+bin/console make:entity
+configurar a entidade e depois fazer a migration com o comando 
+php bin/console doctrine:migrations:diff
+subir a migração para o banco com o comando
+php bin/console doctrine:migrations:migrate
+já pode configurar a rota
+instalar form e validator
+php bin/console req form validator
+

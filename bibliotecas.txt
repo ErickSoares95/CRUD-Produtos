@@ -1,0 +1,8 @@
+composer create-project symfony/skeleton nomedoprojeto				Iniciar projeto em symfony
+composer require server                                             Instalar o servidor
+composer req annotations                                            Instalar annotations
+composer req doctrine maker                             
+composer req form validator            
+<script src="https://kit.fontawesome.com/dd743987c1.js" crossorigin="anonymous"></script>
+
+composer create-project symfony/website-skeleton nomedoprojeto

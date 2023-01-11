@@ -1,0 +1,7 @@
+php -S localhost:8000 -t public
+php bin/console doctrine:database:create
+php bin/console make:entity 
+php bin/console doctrine:migrations:diff
+php bin/console doctrine:migrations:migrate
+
+composer unpack orm             Para extrair as funções do pack e poder tirar alguma caso não esteja sendo utilizada
